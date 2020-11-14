@@ -1,0 +1,303 @@
+echo $SHELL
+echo $TERM
+whoami
+echo $HOST
+echo $USER
+echo '$HOST'
+date
+echo $(date)
+eccho "klfdfkslf"
+echo "hoy esss \ mi dia "
+cat /etc/os-release
+cd Data/shell
+cat Text_example.txt
+cd
+cd Data/shell
+cat -n Text_exsmple.txt
+cat -n Text_example.txt
+pwd
+cd ~
+cd
+cd Data/shell
+cd -
+ls
+ls -s
+ls -l -s
+ls -la
+ls -lasr
+ls -las
+ls -lat
+chmod 777 .history
+ls -l .history
+chmod 600 .history
+ls -l -history
+ls -l .history
+mkdir -p holi/cosas/nazis
+touch anaconda3
+ls -l
+mkdir -p /first_dir
+mkdir -p first_dir
+cd
+cd first_dir
+touch text_file.txt
+cd touch "text_file.txt"
+touch text_file.txt
+cd ls
+ls
+ls -l
+chmod 744
+chmod 744 .text_file_txt
+chmod 744 .text_file.txt
+chmod 744 .text_file
+ls
+chmod 644 text_file.txt
+ls -l
+chmod 744 text_file.txt
+ls -l
+chmod 755 text_file.txt
+ls -l
+chmod 775 text_file.txt
+ls -l
+mkdir -p first_dir/sub1/sub2
+cp text_file.txt first_dir/sub1/sub2
+ls
+cd first_dir/sub1/sub2
+ls
+cd .
+cd -
+cd .
+cd
+cd first_dir/first_dir/sub1
+ls
+cd
+clear
+git config --global user.name "Adria Cespedes"
+git config --global user.email "adri@cespedes.io"
+git clone https://github.com/adriacespedes/kschool-master-2020.git
+ls
+cd kschool-master-2020
+touch chachifile
+git status
+touch name_file
+git status
+git add chachi_file
+git status
+git add chachifile
+git status
+git commit
+gil log
+git log
+cd
+mkdir Repos
+cd Repos
+git clone https://github.com/adriacespedes/master_26_clase.git
+ll
+git clone https://github.com/adriacespedes/master_26_clase.git master_26_copy
+ll
+ls
+cd master_26_clase
+ll -a
+cd
+cd Repos
+git clone [200~https://github.com/adriacespedes/master_26_clase_otro.git~
+git clone https://github.com/adriacespedes/master_26_clase_otro.git
+cd master_26_clase_otro
+gedit README.md
+ll
+git add README.md
+ git status
+git commit -m
+git lo
+git log
+ git status
+git commit -m
+ git status
+git commit -m "This is the first commit"
+git log
+git status
+gedit README.md
+git add
+git add README.md
+git status
+git commit -m "second commit"
+git push
+cd ..
+git init master_from_local
+cd
+cd Repos/master_from_local
+touch my_ideas.txt
+gedit my_ideas.txt
+git add my_ideas.txt
+git commit -m "my initial idea"
+git status
+gedit my_second_idea.txt
+git status
+gedit my_ideas.txt
+git status
+git add -u
+git status
+git add my_second_idea.txt
+git status
+git commit -m "secon idea added"
+git log
+git remote add origin https://github.com/adriacespedes/My_ideas.git
+git branch -M main
+git push -u origin main
+cd
+man cp
+cat --help
+less .gitconfig
+cd Data/opentraveldata
+ll
+cat ref_airline_nb_of_flights.csv
+less ref_airline_nb_of_flights.csv
+less -N ref_airline_nb_of_flights.csv
+less optd_por_public.csv
+less -N optd_por_public.csv
+less -s optd_por_public.csv
+less -S optd_por_public.csv
+less -N -S optd_por_public.csv
+git clone https://github.com/adriacespedes/master_26_clase_otro.git
+cd
+cd Repos/master_26_clase_otro
+cd
+cd Data/opentraveldata
+alias
+type l
+MASTER=kschool
+echo $MASTER
+LESS .zsh
+LESS .zshrc
+less .zshrc
+cd
+less .zshrc
+type python
+which python
+sudo which python
+cd Data/shell
+head Finn.txt
+head -5 Finn.txt
+head -n -5 Finn.txt
+tail -3 Finn.txt
+wc Finn.txt
+wc -l Finn.txt
+echo "HELP MEEE" | wc
+wc Text_example.txt
+cat Text_example.txt
+cat Text_example.txt | wc
+cat Text_example.txt | head 10 | wc
+cat Text_example.txt | head | wc
+cat Text_example.txt | wc > salida
+ll
+cat salida
+cat Text_example.txt | wc > salida
+cat Text_example.txt | wc >> salida
+cat salida
+cat Text_example.txt | wc >> salida
+cat salida
+wc < Text_example.txt
+wc Text_example.txt
+cd
+cd Data/opentraveldata
+ll
+wc optd_por_public.csv
+la
+ll
+ls -s
+ll optd_por_public.csv
+ll optd_por_public.csv > largest_file
+ls
+cat largest_file
+cd
+head Finn
+head Finn.txt
+cd Data/shell
+head Finn.txt
+wc Finn.txt
+w Finn.txt
+wc w Finn.txt
+wc -w Finn.txt
+head -5 Finn.txt
+head -5 Finn.txt | wc -w
+head -n Text_example.txt
+head -N Text_example.txt
+head Text_example.txt
+cd
+cd Repos
+git init ClasesMaster
+cd ClasesMaster
+mkdir Shell
+cd Shell
+cat ~/.history > Shell_clase_20201114
+ll
+gedit Shell_clase_20201114
+git add Shell_clase_20201114
+cd Repos/ClasesMaster/Shell
+gedit Shell_clase_20201114
+ll
+git add Shell_clase_20201114
+git add Shell_clase_20201114.txt
+git status
+cd ..
+cd ClasesMaster
+git status
+ll
+ls Shell
+ll -a
+cd Shell
+ll -a
+cd ..
+mv ClasesMaster ClasesMaster.old
+git init ClasesMaster
+cd ClasesMaster
+git status
+cat ~/.history > Shell_clases_20201114
+ls
+git add Shell_clases_20201114
+git status
+git commit -m "Notas clase 20201114"
+git remote add origin https://github.com/adriacespedes/notas_clases_master.git
+git branch -M main
+git push -u origin main
+cd Shell
+cd ..
+cd ClasesMaster.old/Shell
+cd ..
+cd ClasesMaster
+cd
+find . -name "text_file*"
+find . -iname "tExt_file*"
+find -type d -iname "text_file*"
+find -type f -iname "text_file*"
+find -type f -maxdepth 5 -iname "text_file*"
+find  -maxdepth 5 -type f -iname "text_file*"
+find -type f -perm 777
+find -type f -empty
+find -type f -size0 
+find -type f -size 0
+find -type f -size +10M | wc -l
+find -type f -mmin -60
+sudo find -type f -iname "text_file*"
+sudo find -type f -iname "text_file*" | wc
+sudo find -type f -iname "text_file*" -exec echo "Found it" \;
+sudo find -type f -iname "text_file*"
+ls -l 
+sudo find -type f -iname "text_file*" -exec ls -l {} \;
+sudo find -type f -iname "text_file*" -exec ls -l {} \; -exec head -2 {} \;
+sudo find -type f -iname "text_file*" -ok ls -l {} \; 
+sudo find -type f -iname "text_file*" -exec "head -2 | wc " \;
+sudo find -type f -iname "text_file*" -exec head -2 | wc  \;
+bash -c "cd ../ ; ls -l > ./dsc/file"
+sudo find -type f -iname "text_file*" -exec bash -c " head -2 {} | wc"  \;
+find -type f mmin -60
+find -type f- mmin -60
+find -type f -mmin -60
+find -type f -size +10M 
+find -type f -size 0 
+find -type f ! -perm 777
+find -type f -size 0 | find -type f -perm 777
+cd Repos
+ll
+cd ClasesMaster
+ls
+cat ~/.history > Shell_clases2020_20201114_v2.txt
